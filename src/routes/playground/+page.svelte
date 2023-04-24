@@ -24,7 +24,7 @@
 
 <div class="playground-container">
 	{@html isFact ? redRender() : blueRender()}
-	<button on:click={() => (isFact = !isFact)}>Change</button>
+	<button on:click={() => (isFact = !isFact)}>Change Na</button>
 	<DisplayCount count={0} on:submit={handleSubmit} />
 
 	<div class="text-2xl mt-6">
